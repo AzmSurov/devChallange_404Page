@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  
+  body {
+    display: flex;
+    max-width: 1440px;
+    max-height: 1080px;
+  }
+  
+  div header {
+    margin-bottom: 8.6vh;
+    margin-top: 2.7vh;
+    margin-left: 3.23vh;
+    font-family: "Inconsolata", monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  
+  @media (min-width: 600px) {
+    div section {
+      margin-top: 15vh;
+      width: 95vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    div section img {
+      margin-left: 3vh;
+      width: 45vw;
+    }
+    div section .right {
+      margin-right: 3vh;
+      max-width: 45vw;
+    }
+    div section .right h1 {
+      font-size: 64px;
+      line-height: 95px;
+    }
+    div section .right p {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  @media (max-width: 600px) {
+    div section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    div section .right h1 {
+      font-size: 48px;
+      line-height: 71px;
+    }
+    div section .right p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  div section {
+    font-family: "Space Mono", monospace;
+  }
+  
+  div section img {
+    max-width: 80vw;
+  }
+  
+  div section .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div section .right h1 {
+    margin-left: 5vw;
+    margin-bottom: 3.29vh;
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+    font-weight: bold;
+  
+    letter-spacing: -0.035em;
+  
+    /* Gray 1 */
+  
+    color: #333333;
+  }
+  
+  div section .right p {
+    margin-left: 5vw;
+  
+    margin-bottom: 9vh;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+  
+    letter-spacing: -0.035em;
+  
+    /* Gray 2 */
+  
+    color: #4f4f4f;
+  }
+  
+  div section .right button {
+    margin-left: 5vw;
+  
+    align-self: flex-start;
+    font-family: "Space Mono", monospace;
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+  }
+  
+  div section .right button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  div footer {
+    padding-top: 20vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div footer span {
+    margin-bottom: 5vh;
+  }
